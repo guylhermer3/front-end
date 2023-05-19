@@ -1,0 +1,73 @@
+:root{
+    --prima
+}
+
+
+
+
+
+/* CSS Reset */
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+
+
+
+.menu-limk {
+    color: var(--black);
+    font-size: 16px;
+    text-decoration: nome;
+    margin: 0 10px;
+}
+
+.menu-limk:hover {
+    border-bottom: ;
+}
+
+
+
+
+
+
+
+.menu-link_red {
+    color: var(--white);
+    background-color: var(--primaria);
+    font-size: 16px;
+    text-decoration: nome;
+    margin: 0 10px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid var(--primaria);
+}
+
+.menu-limk_red:hover {
+
+}
+
+.cabecalho {
+    height: 571px;
+    background-image: url("../fundo_cabecalho.png");
+}
+
+.titulo {
+    background-color: var(--secundaria);
+    padding: 20px;
+    position: relative;
+    top: 200px;
+    text-align: right;
+    opacity: .7;
+}
+
+.data {
+    background-color: var(--secundaria);
+    padding: 20px;
+    text-align: right;
+    position: relative;
+    top: 400px;
+    left: 900px;
+    opacity: .7;
+}

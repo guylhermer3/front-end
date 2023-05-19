@@ -1,0 +1,44 @@
+:root {
+    --primary: #274156;
+    --primaryAlpha: #274156b7;
+    --white: #fbfcff;
+}
+
+
+.input {
+    padding: 10px;
+    border: 1px solid var(--primary);
+    border-radius: 5px;
+    outline: none;
+}
+.input:focus {
+    background-color: bisque;
+}
+
+
+.select {
+    padding: 10px;
+    border: 1px solid var(--primary);
+    border-radius: 5px;
+    outline: none;
+}
+.select:focus {
+    background-color: rgb(205, 196, 255);
+}
+
+
+.label {
+    display: block;
+}
+
+
+.botao {
+    background-color: var(--primary);
+    color: var(--white);
+    padding: 10px;
+    border: 0;
+    cursor: pointer;
+}
+.botao:hover {
+    background-color: var(--primaryAlpha);
+}

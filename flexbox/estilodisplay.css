@@ -1,0 +1,17 @@
+.box1 {
+    background-color: violet;
+    color: white;
+    width: 200px;
+    /* display: block; */
+    /* display: inline; */
+    display: inline-block;
+}
+
+.box2 {
+    background-color: rgb(229, 231, 93);
+    color: #000000;
+    width: 200px;
+    /* display: block; */
+    /* display: inline; */
+    display: inline-block;
+}

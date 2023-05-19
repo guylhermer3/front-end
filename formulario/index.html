@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de inscrição</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <form>
+
+        <div>
+            <label for="nome" class="label">Nome:</label>
+            <input type="text" id="nome" placeholder="Ex.: Maria de Oliveira" class="input" />
+        </div>
+
+        <div>
+            <label for="email" class="label">E-mail:</label>
+            <input type="email" id="email" placeholder="Ex.: maria.oliveira@gmail.com" class="input" />
+        </div>
+
+        <div>
+            <!-- (checked) pode ser utilizando no lugar 
+            de (name="sexo"), tem a mesma função só que 
+            padroniza uma das opções... masculino ou feminino! -->
+
+            <label class="label">Sexo:</label>
+
+            <input type="radio" id="masculino" name="sexo" />
+            <label for="masculino">Masculino</label>
+
+            <input type="radio" id="feminino" name="sexo"/>
+            <label for="feminino">Feminino</label>
+
+        </div>
+
+        <div>
+            <!-- (selected) padroniza a opção da sua escolha! 
+            Ex: O curso que você mais usa para preencher o fomulário! -->
+
+            <label for="curso">Curso</label>
+            <select id="curso" class="select">
+                <option>HTML E CSS</option>
+                <option>JavaScript</OPtion>
+                <option selected>Git</option>
+                <option>PHP</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="atendimento" class="label">Descreva o atendimento especial:</label>
+            <textarea id="atendimento"></textarea>
+        </div>
+
+        <div>
+            <input type="checkbox" id="termos" />
+            <label for="termos">Estou de acordo com os termos de serviço</label>
+        </div>
+
+        <div>
+            <!-- Duas formas de colocar botões, sendo que a segunda 
+            tem como colocar imagem e a primeira somente texto! -->
+
+            <!-- <input type="button" value="Realizar inscrição" /> -->
+            <button class="botao">Realizar inscrição</button>
+        </div>
+
+    </form>
+</body>
+</html>

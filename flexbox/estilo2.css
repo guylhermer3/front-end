@@ -1,0 +1,20 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.box > div { padding: 10px;}
+
+.box1 { height: 30px; background-color: rgb(234, 220, 66);}
+.box2 { height: 20px; background-color: rgb(46, 190, 35);}
+.box3 { height: 40px; background-color: rgb(205, 70, 46);}
+.box4 { height: 30px; background-color: rgb(62, 62, 224);}
+.box5 { height: 30px; background-color: rgb(195, 38, 169);}

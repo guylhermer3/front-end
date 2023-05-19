@@ -1,0 +1,32 @@
+.tabela {
+    color: #010101;
+    width: 100%;
+    border-bottom: 1px solid #010101;
+    border-collapse: collapse;
+    font-family: 'Quicksand';
+}
+
+.tabela td, .tabela th {
+    border-bottom: 1px solid #e2e2e2;
+    /* padding: 20px; */
+    text-align: center;
+}
+
+.tabela th {
+    color: #ffffff;
+    background-color: #010101;
+}
+
+.tabela tr:nth-of-type(odd) {
+    background-color: #e2e2e2;
+
+}
+
+.tabela tr:hover {
+    background-color: aqua;
+}
+
+.titulo {
+    font-family: 'Roboto';
+    font-size: 18px;
+}
